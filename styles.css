@@ -1,0 +1,255 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    align-content: center;
+}
+.hero {
+    position: static;
+    width: 90%;
+    height: 100%;
+    margin: 10px;
+    padding: 20px;
+    background: #fff;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    margin-bottom: 10px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f9f9f9;
+
+}
+
+.logo {
+    width: 200px;
+    cursor: pointer;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: orange;
+}
+
+.detel {
+    margin: 10%;
+    height:auto;
+    width: auto;
+
+}
+
+.detelp {
+    margin: 10px;
+    width: 80vw;
+    height: 100%;
+    align-items: center;
+
+}
+
+.detela {
+    margin-left: 5%;
+    margin-top: 8%;
+    width: auto;
+    height: auto;
+
+}
+
+.detel h1 {
+    font-size: 50px;
+    color: #212121;
+    margin-bottom: 20px;
+}
+
+.detelp h1 {
+    font-size: 50px;
+    color: #212121;
+    margin-bottom: 20px;
+}
+
+
+span {
+    color: orange;
+
+}
+
+.detelp p {
+    color: #555;
+    line-height: 22px;
+}
+
+.detelp a {
+    background: #212121;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+
+.detelp a:hover {
+    color: orange;
+}
+
+
+
+.images {
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+
+.images img {
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+}
+
+.images:hover .shape {
+    bottom: 40px;
+}
+
+.images:hover .maha {
+    left: 45%;
+}
+
+.social {
+    padding: 10px 18px;
+    margin-top: 100px;
+    margin-left: 8%;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    display: fixed;
+}
+
+.social a {
+    font-size: 30px;
+    color: #212121;
+    margin-right: 20px;
+}
+
+.social a:hover {
+    color: orange;
+}
+
+.container {
+    width: fit-content;
+    height: fit-content;
+    align-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: bisque;
+    margin: 5px;
+    padding: 20px;
+    justify-content: center;
+}
+.containerp {
+    width: fit-content;
+    height: fit-content;
+    align-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: bisque;
+    margin: 5px;
+    padding: 20px;
+    justify-content: center;
+}
+
+.ft {
+    height: auto;
+    width: auto;
+    display: flex;
+    position: sticky;
+    align-items: center;
+    margin-top: 40px;
+    padding: 40px 0px 40px 0px;
+    background-color: wheat;
+}
+.ft a:hover {
+    color: orange;
+}
+
+.imagecont {
+    margin-top: 10%;
+    box-shadow: #fff;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+}
+
+.imagecont img {
+    width: 90%;
+    height: 90%;
+    border-radius: 50%;
+    border: 10px solid #fff;
+}
+
+.sourceCode{
+    display: table;
+}
+.sourceCode a{
+    background: #212121;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 5px;
+}
+.sourceCode a:hover{
+    color: orange;
+}
+@media (max-width: 578px){
+    .containera1 {
+        width: fit-content;
+        height: fit-content;
+        align-content: center;
+        align-items: center;
+        border-radius: 20px;
+        background-color: bisque;
+        margin: 10px;
+        padding: 20px;
+        justify-content: center;
+        float: left;
+        margin-bottom: 50px;
+    }
+    .containera2 {
+        width: fit-content;
+        height: fit-content;
+        align-content: center;
+        align-items: center;
+        border-radius: 20px;
+        background-color: bisque;
+        margin: 10px;
+        padding: 20px;
+        justify-content: center;
+        float: right;
+        margin-bottom: 50px;
+    }
+    .detelp {
+        margin: 10px;
+        width: fit-content;
+        height: 100%;
+        align-items: center;
+    
+    }
+}
